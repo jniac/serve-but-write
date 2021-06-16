@@ -1,0 +1,23 @@
+{
+  "name": "@jniac/serve-but-write",
+  "version": "1.0.0",
+  "description": "serving files through http GET, but writing too through http POST",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "serve-but-write": "./src/index.mjs"
+  },
+  "keywords": [],
+  "author": "Joseph Merdrignac",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "serve-handler": "^6.1.3",
+    "yargs-parser": "^20.2.7"
+  }
+}
