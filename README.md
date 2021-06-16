@@ -2,6 +2,7 @@
 
 usage: 
 ```js
+// write to a local text file:
 res = await fetch('foo.txt', {
     method: 'POST',
     body: 'bar is cool',
